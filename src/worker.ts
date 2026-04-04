@@ -62,7 +62,9 @@ function landingPage(): string {
 .cta-free{background:#334155;color:#e2e8f0}.cta-paid{background:linear-gradient(135deg,#7c3aed,#3b82f6);color:white}
 .footer{text-align:center;padding:2rem;color:#475569;font-size:.75rem}
 </style></head><body>
-<div class="hero"><h1>🚢 Cocapn Membership</h1><p>Pay for convenience, not for AI. We save you money through bulk inference pricing and community development. You keep the savings.</p></div>
+<div class="hero">
+      <img src="https://cocapn-logos.casey-digennaro.workers.dev/img/cocapn-logo-v1.png" alt="Cocapn" style="width:64px;height:auto;margin-bottom:.5rem;border-radius:8px;display:block;margin-left:auto;margin-right:auto">
+      <h1>🚢 Cocapn Membership</h1><p>Pay for convenience, not for AI. We save you money through bulk inference pricing and community development. You keep the savings.</p></div>
 <div class="philosophy"><strong>Our philosophy:</strong> We make money from SAVING you costs, not charging you more. Membership fees + bulk inference synergy + optional ad revenue (free tier) = sustainable. You always pay less than going direct.</div>
 <div class="grid">
 ${tiers.map((t,i)=>`<div class="card${t.id==='gold'?' featured':''}">
